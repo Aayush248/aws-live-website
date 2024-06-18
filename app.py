@@ -41,4 +41,4 @@ def submit():
     return redirect(url_for('index'))
 
 if __name__ == '__main__':
-    app.run(host='3.91.11.235', port=8000)
+    app.run(host='0.0.0.0', port=80, debug=True)
