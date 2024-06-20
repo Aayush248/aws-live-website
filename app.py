@@ -8,7 +8,7 @@ db_config = {
     'user': 'admin',
     'password': 'admin12345',
     'host': 'database-2.crezjbu8x9vl.us-east-1.rds.amazonaws.com',
-    'database': 'database-2'
+    'database': 'employee_info'
 }
 
 @app.route('/')
