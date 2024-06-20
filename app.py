@@ -7,8 +7,8 @@ app = Flask(__name__)
 db_config = {
     'user': 'admin',
     'password': 'admin12345',
-    'host': 'my-db-test.crezjbu8x9vl.us-east-1.rds.amazonaws.com',
-    'database': 'company'
+    'host': 'database-2.crezjbu8x9vl.us-east-1.rds.amazonaws.com',
+    'database': 'database-2'
 }
 
 @app.route('/')
